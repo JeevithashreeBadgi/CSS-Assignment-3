@@ -1,0 +1,134 @@
+body{
+    background-color:dimgray;
+}
+.store{
+    color:brown;
+    background-color: white;
+    width:400px;
+    height: 125px;
+    border:5px solid red;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 2px gray;
+}
+.flex-container{
+    border:5px solid darkgreen;
+    height: 500px;
+}
+.flex-item1{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border:5px solid red;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 2px gray;
+}
+.flex-item2{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border:5px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px purple;
+    display: flex;
+    position:relative;
+    bottom:170px;
+    left:1050px;
+}
+.image{
+    
+    margin:10px 5px 10px 8px; 
+    width:180px;
+    height: 130px;
+}
+.flex-item3{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border:5px solid red;
+    border-radius: 10px;
+    padding:20px 0px 0px 30px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 2px gray;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+.sub{
+    background-color: red;
+    border-radius: 20px;
+}
+.flex-item4{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border:5px solid red;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 2px gray;
+    display: inline-block;
+    position: relative;
+    bottom:210px;
+    left:1050px;
+}
+.flex-item5{
+    color:red;
+    background-color:lawngreen;
+    width:450px;
+    height: 50px;
+    border:5px solid red;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left:450px;
+    position:fixed;
+}
+.mon{
+    padding: 10px;
+}
+.dis{
+    display: flex;
+    position: relative;
+    left:125px;
+    bottom: 0px;
+    padding:10px;
+}
+.grid-container{
+    width:60%;
+    background-color: darkgreen;
+    display: grid;
+    padding:20px;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+    border: 8px solid purple;
+    
+}
+.grid-item-1{
+    background-color: darkgreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 15px;
+}
+.grid-item-2{
+    background-color: bisque;
+    padding:1rem;
+    margin:2px; 
+}
+.grid-item-3{
+    background-color: bisque;
+    padding:1rem;
+    margin:2px; 
+}
+.grid-item-4{
+    background-color: bisque;
+    padding:1rem;
+    margin:2px; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
